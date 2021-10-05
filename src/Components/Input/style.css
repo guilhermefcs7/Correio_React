@@ -1,0 +1,35 @@
+/*TEMPORARY CSS */
+
+
+.Container{
+    margin-top: 50px;
+    padding: 50px;
+    border: 1px solid yellow;
+    box-shadow: 5px 10px black;
+}
+
+input[type = text]{
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+::placeholder{
+    font-family: 'Montserrat', sans-serif;
+}
+
+button{
+    background-color: yellow;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+ul{
+    margin-top: 50px;
+    list-style: none;
+}
+
+ul li{
+    padding: 20px;
+}

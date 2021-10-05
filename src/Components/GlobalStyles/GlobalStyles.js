@@ -10,7 +10,11 @@ export const GlobalStyle = createGlobalStyle`
 
 body,html{
     font-family: 'Montserrat', sans-serif;
-    background-color: #EEF2F4; 
+    background-color: #050A30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
 }
    
 `;

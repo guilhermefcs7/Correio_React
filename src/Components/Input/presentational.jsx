@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'; 
 import axios from 'axios'
 
-import {Content} from './styles'
+import './style.css'
+
 
 export default function List(){
 
@@ -31,8 +32,10 @@ export default function List(){
         setCep(e.target.value)
     }
 
-    return(
-        <>
+    return( 
+        <div className ='Container'>
+
+        
         <h1>Consultar Cep</h1>
         <input type="text" onChange = {(e) =>{handlingCep(e)} } placeholder = 'Digite o Cep'/>
         <button onClick = {getInformacoes}>Pesquisar</button>
@@ -47,7 +50,7 @@ export default function List(){
             <li>IBGE: {info['ibge']}</li>
             <li>GIA: {info['gia']}</li>
         </ul>
-        </>
+        </div>
     )
 
 }
