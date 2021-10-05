@@ -5,4 +5,3 @@
   .Hooks <br/>
   .Axios (consuming Api)
   
-   https://guilhermefcs7.github.io/Correio_React/
